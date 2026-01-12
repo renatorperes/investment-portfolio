@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Personal Investment Portfolio</title>
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Personal investment portfolio managed with own capital. Performance, risk metrics and attribution analysis." />
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="css/style.css" />
+
+  <!-- Chart.js -->
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+
+<body>
+
+  <!-- HEADER -->
+  <header>
+    <h1>Personal Investment Portfolio</h1>
+    <p>Managed with own capital · Performance & Risk Analysis</p>
+  </header>
+
+  <!-- OVERVIEW -->
+  <section id="overview">
+    <h2>Overview</h2>
+    <ul>
+      <li><strong>Portfolio Type:</strong> Personal Investment Portfolio</li>
+      <li><strong>Capital:</strong> Own capital</li>
+      <li><strong>Investment Horizon:</strong> Medium / Long Term</li>
+      <li><strong>Risk Profile:</strong> Moderate</li>
+      <li><strong>Benchmark:</strong> CDI</li>
+      <li><strong>Inception Date:</strong> Jan/2021</li>
+    </ul>
+  </section>
+
+  <!-- PERFORMANCE -->
+  <section id="performance">
+    <h2>Performance</h2>
+    <p>
+      Monthly returns compared to benchmark. All figures are net of costs and
+      reflect actual realized performance.
+    </p>
+
+    <canvas id="performanceChart"></canvas>
+  </section>
+
+  <!-- RISK METRICS -->
+  <section id="risk">
+    <h2>Risk Metrics</h2>
+    <ul>
+      <li>Annualized Volatility</li>
+      <li>Maximum Drawdown</li>
+      <li>Sharpe Ratio</li>
+      <li>Positive Months (%)</li>
+    </ul>
+  </section>
+
+  <!-- ATTRIBUTION -->
+  <section id="attribution">
+    <h2>Performance Attribution</h2>
+    <p>
+      Portfolio results are primarily driven by active asset allocation and
+      tactical positioning. Periods of underperformance were mainly associated
+      with adverse market conditions and temporary drawdowns within predefined
+      risk limits.
+    </p>
+  </section>
+
+  <!-- DISCLAIMER -->
+  <section id="disclaimer">
+    <h2>Disclaimer</h2>
+    <p>
+      This is a personal investment portfolio managed with own capital. This
+      material is provided for informational purposes only and does not
+      constitute investment advice, an offer, or solicitation to buy or sell
+      any financial instruments.
+    </p>
+  </section>
+
+  <!-- FOOTER -->
+  <footer>
+    <p>© 2026 · Personal Investment Portfolio</p>
+  </footer>
+
+  <!-- JS -->
+  <script src="js/charts.js"></script>
+
+</body>
+</html>
