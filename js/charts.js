@@ -1,4 +1,4 @@
-fetch("data/Performance.json")
+fetch("data/performance.json")
   .then(response => response.json())
   .then(data => {
     const ctx = document.getElementById("performanceChart");
